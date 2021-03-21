@@ -1,0 +1,35 @@
+.links {
+  background-color: royalblue;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.head-container {
+  background-image: url("../images/green_box_bg.gif");
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.head-container .nav {
+  width: 20%;
+  height: 200px;
+  background-image: url("../images/right_nav_a.gif");
+  background-repeat: repeat-y;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  color: white;
+}
+
+/*# sourceMappingURL=greefies.css.map */

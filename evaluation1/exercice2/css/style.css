@@ -1,0 +1,44 @@
+.body {
+  background-color: gray;
+}
+
+.Entete, .Nav, .Article, .Divers, .Pieds {
+  border: 2px solid blue;
+  background-color: lightgray;
+  margin: 2px;
+  font-size: 18px;
+  font-family: "Arial Black";
+}
+
+.Nav, .Divers {
+  display: flex;
+  width: 128px;
+  color: cyan;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Entete, .Pieds {
+  display: flex;
+  height: 64px;
+  color: yellow;
+  align-items: center;
+  justify-content: center;
+}
+
+.milieu {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 90%;
+}
+
+.Article {
+  width: 90%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+}
+.Entete, .Nav, .Article, .Divers, .Pieds{
+    background-color: mistyrose;
+    border: 2px solid blue;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav{
+    width: 128px;
+    height: 600px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    float-wrap: wrap;
+}
+
+
+.Article{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: left;
+}
+.Divers{
+    width: 20%;
+    height: 550px;
+
+}
+.container1{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Pieds{
+    width: 100%;
+    clear: left;
+}
+.container2{
+    display: flex;
+    float: right;
+    width: 100%;
+
+}
